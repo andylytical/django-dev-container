@@ -25,6 +25,8 @@
    1. `make up`
    1. http://localhost:8000
       You should see the Django development screen with a rocket.
+      1. `DisallowedHost at /` ?
+         1. Update `ALLOWED_HOSTS` in `settings.py`
 
 # Develop and test locally
 1. Start development server
